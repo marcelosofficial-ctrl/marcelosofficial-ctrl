@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Marcelo Ellwanger - Software, Systems, Automation and AI</title>
+  <desc id="desc">Dark MARCELO/LAB banner with acid-lime signal lines, engineering-grid details and restrained editorial typography.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090b0c"/>
+      <stop offset="0.55" stop-color="#101416"/>
+      <stop offset="1" stop-color="#0b0d0e"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d6ff57" stop-opacity="0.12"/>
+      <stop offset="0.38" stop-color="#d6ff57" stop-opacity="0.95"/>
+      <stop offset="0.72" stop-color="#d6ff57" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity="0.032" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="340" rx="24"/></clipPath>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <circle cx="1010" cy="85" r="220" fill="#d6ff57" opacity="0.018"/>
+
+    <g fill="none" stroke="url(#signal)" stroke-width="1.35" opacity="0.82">
+      <path d="M-70 288 C120 196 248 334 410 283 S690 117 862 202 S1078 304 1270 196"/>
+      <path d="M-70 296 C120 204 248 342 410 291 S690 125 862 210 S1078 312 1270 204" opacity="0.92"/>
+      <path d="M-70 304 C120 212 248 350 410 299 S690 133 862 218 S1078 320 1270 212" opacity="0.84"/>
+      <path d="M-70 312 C120 220 248 358 410 307 S690 141 862 226 S1078 328 1270 220" opacity="0.76"/>
+      <path d="M-70 320 C120 228 248 366 410 315 S690 149 862 234 S1078 336 1270 228" opacity="0.68"/>
+      <path d="M-70 328 C120 236 248 374 410 323 S690 157 862 242 S1078 344 1270 236" opacity="0.60"/>
+      <path d="M-70 336 C120 244 248 382 410 331 S690 165 862 250 S1078 352 1270 244" opacity="0.50"/>
+      <path d="M-70 344 C120 252 248 390 410 339 S690 173 862 258 S1078 360 1270 252" opacity="0.42"/>
+    </g>
+
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.11">
+      <circle cx="1028" cy="118" r="78"/>
+      <circle cx="1028" cy="118" r="52"/>
+      <path d="M948 118H1108M1028 38V198"/>
+      <path d="M985 74 L1072 161 M1072 74 L985 161" stroke-opacity="0.05"/>
+    </g>
+    <circle cx="1028" cy="118" r="5" fill="#d6ff57" filter="url(#softGlow)"/>
+
+    <rect x="42" y="42" width="7" height="58" rx="3.5" fill="#d6ff57"/>
+    <text x="72" y="73" fill="#d6ff57" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4">MARCELO / LAB</text>
+    <text x="70" y="143" fill="#f2efe9" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="760" letter-spacing="-1.5">MARCELO ELLWANGER</text>
+    <text x="72" y="182" fill="#aab2b5" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="1.2">SOFTWARE · SYSTEMS · AUTOMATION · AI</text>
+    <text x="72" y="222" fill="#e1e5e3" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic">I turn real-world friction into software that earns trust.</text>
+
+    <!-- Instrument readouts sit on quiet plates so the signal remains visible without competing with text. -->
+    <g>
+      <rect x="60" y="249" width="310" height="51" rx="5" fill="#0a0d0e" fill-opacity="0.90" stroke="#ffffff" stroke-opacity="0.065"/>
+      <rect x="60" y="249" width="3" height="51" rx="1.5" fill="#d6ff57" fill-opacity="0.62"/>
+      <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" letter-spacing="1.5">
+        <text x="78" y="270" fill="#9aa4a7">BUILD / TEST / LEARN / SHIP</text>
+        <text x="78" y="290" fill="#737e82">BASED IN JAPAN · REMOTE / GLOBAL</text>
+      </g>
+    </g>
+
+    <g>
+      <rect x="908" y="207" width="170" height="56" rx="5" fill="#0a0d0e" fill-opacity="0.91" stroke="#ffffff" stroke-opacity="0.065"/>
+      <path d="M922 218H948" stroke="#d6ff57" stroke-opacity="0.58"/>
+      <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" letter-spacing="1.5">
+        <text x="922" y="239" fill="#9aa4a7">SYSTEMS / 01</text>
+        <text x="922" y="255" fill="#737e82">SIGNAL / 147</text>
+      </g>
+    </g>
+
+    <path d="M72 306 H1128" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="72" cy="306" r="3" fill="#d6ff57"/>
+    <circle cx="1128" cy="306" r="3" fill="#ffffff" opacity="0.16"/>
+  </g>
+</svg>

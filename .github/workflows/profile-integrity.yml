@@ -1,0 +1,61 @@
+name: Profile integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Verify profile assets and recruiter links
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s README.md
+          test -s assets/profile-banner.svg
+          test -s assets/profile-signal.svg
+
+          grep -q '<svg' assets/profile-banner.svg
+          grep -q '<svg' assets/profile-signal.svg
+
+          grep -q 'https://marcelosofficial-ctrl.github.io/portfolio/' README.md
+          grep -q 'https://www.linkedin.com/in/marcelo-ellwanger-10657a435/' README.md
+          grep -q 'https://marcelosofficial-ctrl.github.io/portfolio/resume/software/' README.md
+          grep -q 'https://marcelosofficial-ctrl.github.io/portfolio/resume/Marcelo_Ellwanger_Software_QA_Resume.pdf' README.md
+
+          grep -q 'CrashScope · v0.1 candidate' README.md
+          grep -q '147 automated tests' README.md
+          grep -q '0.0577% background / 0.0578% active sampler CPU' README.md
+          grep -q 'VektorDeck 1.0 · released' README.md
+          grep -q 'Retro Game Vision · field tested' README.md
+          grep -q 'EasyFLix · active build' README.md
+          grep -q '48 automated tests' README.md
+          grep -q 'portable 0.6.0 win-x64 artifact' README.md
+          grep -q 'provider-specific retry caching' README.md
+
+          if grep -Eiq '\bjunior\b' README.md; then
+            echo 'Stale Junior self-label found in README.md'
+            exit 1
+          fi
+
+          if grep -q 'EasyFlix' README.md; then
+            echo 'Incorrect EasyFLix capitalization found in README.md'
+            exit 1
+          fi
+
+          if grep -Eq '\b(37|40) automated tests\b' README.md; then
+            echo 'Stale EasyFLix automated-test count found in README.md'
+            exit 1
+          fi
+
+          echo 'Profile integrity checks passed.'
