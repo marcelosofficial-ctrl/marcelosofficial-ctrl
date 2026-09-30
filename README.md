@@ -137,14 +137,44 @@ Local-first AI workstation manager for GGUF model intelligence, runtime safety, 
 
 ## FOCUSED TOOLS
 
-**ExactArtifact 1.0.0** · C#/.NET artifact integrity with streaming SHA-256, deterministic manifests and precise mismatch reporting.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**GapTrace 1.0.0** · Go network diagnostics for DNS/TCP/HTTP reachability and micro-outage evidence.
+<sub>01 / ARTIFACT INTEGRITY</sub><br/>
+<strong>ExactArtifact 1.0.0</strong>
 
-**ConfigTrace 1.0.1** · Rust configuration-change tracing with deterministic snapshots, semantic diffs and privacy-aware redaction.
+C#/.NET utility for streaming SHA-256, deterministic directory manifests and precise mismatch reporting.
 
-**MinimalClock 1.0.0** · Rainmeter desktop utility focused on interface craft, validation and clean packaging.
+</td>
+<td width="50%" valign="top">
 
+<sub>02 / NETWORK EVIDENCE</sub><br/>
+<strong>GapTrace 1.0.0</strong>
+
+Go utility for DNS, TCP and HTTP reachability checks with micro-outage evidence.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<sub>03 / CONFIGURATION TRACE</sub><br/>
+<strong>ConfigTrace 1.0.1</strong>
+
+Rust tracer for deterministic snapshots, semantic diffs and privacy-aware redaction.
+
+</td>
+<td width="50%" valign="top">
+
+<sub>04 / DESKTOP CRAFT</sub><br/>
+<strong>MinimalClock 1.0.0</strong>
+
+Rainmeter utility focused on interface craft, validation and clean packaging.
+
+</td>
+</tr>
+</table>
 ---
 
 ## ENGINEERING METHOD
