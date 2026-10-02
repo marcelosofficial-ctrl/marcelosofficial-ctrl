@@ -16,7 +16,7 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v7
 
-      - name: Verify profile assets and recruiter links
+      - name: Verify profile assets and public links
         shell: bash
         run: |
           set -euo pipefail
@@ -29,32 +29,40 @@ jobs:
           grep -q '<svg' assets/profile-signal.svg
 
           grep -q 'https://marcelosofficial-ctrl.github.io/portfolio/' README.md
-          grep -q 'https://www.linkedin.com/in/marcelo-ellwanger-10657a435/' README.md
           grep -q 'https://marcelosofficial-ctrl.github.io/portfolio/resume/software/' README.md
-          grep -q 'https://marcelosofficial-ctrl.github.io/portfolio/resume/Marcelo_Ellwanger_Software_QA_Resume.pdf' README.md
+          grep -q 'https://www.linkedin.com/in/marcelo-ellwanger-10657a435/' README.md
 
-          grep -q 'CrashScope · v0.1 candidate' README.md
-          grep -q '147 automated tests' README.md
-          grep -q '0.0577% background / 0.0578% active sampler CPU' README.md
-          grep -q 'VektorDeck 1.0 · released' README.md
-          grep -q 'Retro Game Vision · field tested' README.md
-          grep -q 'EasyFLix · active build' README.md
-          grep -q '48 automated tests' README.md
-          grep -q 'portable 0.6.0 win-x64 artifact' README.md
-          grep -q 'provider-specific retry caching' README.md
+          grep -q 'CRASHSCOPE' README.md
+          grep -q '266 / 266 automated .NET tests' README.md
+          grep -q 'EASYFLIX' README.md
+          grep -q '219 automated tests' README.md
+          grep -q 'REVDEV' README.md
+          grep -q 'Development status only. Not a public release.' README.md
+          grep -q 'VEKTORDECK' README.md
+          grep -q '1.0 · Source available' README.md
+          grep -q 'RETRO GAME VISION' README.md
+          grep -q 'ExactArtifact 1.0.0' README.md
+          grep -q 'GapTrace 1.0.0' README.md
+          grep -q 'ConfigTrace 1.0.1' README.md
+          grep -q 'MinimalClock 1.0.0' README.md
 
           if grep -Eiq '\bjunior\b' README.md; then
             echo 'Stale Junior self-label found in README.md'
             exit 1
           fi
 
-          if grep -q 'EasyFlix' README.md; then
+          if grep -q 'EasyFLix' README.md; then
             echo 'Incorrect EasyFLix capitalization found in README.md'
             exit 1
           fi
 
-          if grep -Eq '\b(37|40) automated tests\b' README.md; then
-            echo 'Stale EasyFLix automated-test count found in README.md'
+          if grep -Eq '\b(37|40|48) automated tests\b' README.md; then
+            echo 'Stale automated-test count found in README.md'
+            exit 1
+          fi
+
+          if grep -Eq 'LOCAL RC|LOCAL CANDIDATE|public release pending|release still approval-gated' README.md; then
+            echo 'Stale pre-release language found in README.md'
             exit 1
           fi
 
