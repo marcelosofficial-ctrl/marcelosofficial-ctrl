@@ -44,8 +44,8 @@ My engineering style comes from hands-on electrical work, operations and custome
 <table>
 <tr>
 <td width="25%" align="center" valign="top">
-<strong>SHIPPED</strong><br/>
-<sub>CRASHSCOPE 1.2</sub><br/><br/>
+<strong>ACTIVE / SHIPPED</strong><br/>
+<sub>CRASHSCOPE 1.3 / 1.2</sub><br/><br/>
 Windows diagnostics<br/>
 <strong>266 / 266 tests</strong>
 </td>
@@ -83,7 +83,7 @@ Vision + provenance<br/>
 
 Local-first Windows crash diagnostics for games, hardware testing and GPU-heavy workloads.
 
-**266 / 266 automated .NET tests**
+**266 / 266 automated .NET tests · 1.2.0 public**
 
 Event Log + WER correlation · persistent incident evidence · privacy-safe support bundles · ConfigTrace integration
 
