@@ -45,7 +45,7 @@ My engineering style comes from hands-on electrical work, operations and custome
 <tr>
 <td width="25%" align="center" valign="top">
 <strong>ACTIVE / SHIPPED</strong><br/>
-<sub>CRASHSCOPE 1.3 / 1.2</sub><br/><br/>
+<sub>CRASHSCOPE 1.3 DEV / 1.2.0 RELEASED</sub><br/><br/>
 Windows diagnostics<br/>
 <strong>266 / 266 tests</strong>
 </td>
