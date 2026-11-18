@@ -123,9 +123,11 @@ Guarded execution · persistent Git/result/goal continuity · grouped progress �
 <td width="50%" valign="top">
 
 ### VEKTORDECK
-**1.0 · Source available**
+**1.0.0 · Public source release · MIT**
 
 Local-first AI workstation manager for GGUF model intelligence, runtime safety, hardware telemetry, evidence-aware benchmarking and explainable launch recommendations.
+
+Source only; no packaged installer yet.
 
 [Case study →](https://marcelosofficial-ctrl.github.io/portfolio/projects/vektordeck/) · [Repository →](https://github.com/marcelosofficial-ctrl/VektorDeck)
 
