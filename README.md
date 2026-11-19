@@ -25,6 +25,27 @@
 
 ---
 
+<table>
+<tr>
+<td width="210" valign="top" align="center">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/about/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/profile/marcelo-profile.webp" alt="Marcelo Ellwanger" width="190" /></a>
+</td>
+<td valign="top">
+
+### 👋 Hi, I'm Marcelo
+
+I build software for problems I actually run into. I came to it through electrical work, hospitality and teaching, so I care about things that work reliably and get explained clearly.
+
+**Looking for:** remote software engineering, QA / automation or technical support roles.<br/>
+**Based in:** Japan · **Works across:** global time zones · **Languages:** five<br/>
+**Best way to reach me:** [LinkedIn](https://www.linkedin.com/in/marcelo-ellwanger-10657a435/) · **More about me:** [the portfolio](https://marcelosofficial-ctrl.github.io/portfolio/about/)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## SIGNAL
 
 I build practical software around problems I actually encounter: Windows diagnostics, local AI tooling, automation, computer vision, media systems and evidence-driven developer tools.
@@ -36,6 +57,47 @@ My engineering style comes from hands-on electrical work, operations and custome
 </p>
 
 > *Curiosity becomes a system when the evidence survives the experiment.*
+
+---
+
+## SEE IT RUNNING
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/crashscope/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/shots/crashscope-overview.webp" alt="CrashScope overview showing live vitals and the current workload" width="100%" /></a>
+<br/><sub><strong>CrashScope</strong> · Windows crash diagnostics · 1.2.0 released</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/easyflix/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/shots/easyflix-home.webp" alt="EasyFlix home screen with a local media library" width="100%" /></a>
+<br/><sub><strong>EasyFlix</strong> · local media library · 1.4.0 released</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/vektordeck/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/shots/vektordeck-dashboard.webp" alt="VektorDeck dashboard showing machine state and runtime deck" width="100%" /></a>
+<br/><sub><strong>VektorDeck</strong> · local AI workstation manager · 1.0.0 public source</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/revdev/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/shots/revdev-dashboard.webp" alt="RevDev dashboard showing multi-project status" width="100%" /></a>
+<br/><sub><strong>RevDev</strong> · AI-assisted development control surface · in development, not released</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/easyflix/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/easyflix/library.webp" alt="EasyFlix library view showing a large mixed local collection" width="100%" /></a>
+<br/><sub><strong>EasyFlix</strong> · the whole library, source files untouched</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://marcelosofficial-ctrl.github.io/portfolio/projects/rainmeter-clock/"><img src="https://marcelosofficial-ctrl.github.io/portfolio/shots/minimalclock-desktop.webp" alt="MinimalClock running on a desktop" width="100%" /></a>
+<br/><sub><strong>MinimalClock</strong> · small Rainmeter desktop clock · 1.0.0</sub>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <sub>Click any picture for the case study.</sub>
+</p>
 
 ---
 
@@ -177,6 +239,7 @@ Rainmeter utility focused on interface craft, validation and clean packaging.
 </td>
 </tr>
 </table>
+
 ---
 
 ## ENGINEERING METHOD
@@ -221,3 +284,9 @@ Interested in work where practical debugging, reliability, evidence and fast lea
 <p align="center">
   <a href="https://marcelosofficial-ctrl.github.io/portfolio/"><strong>ENTER THE PORTFOLIO →</strong></a>
 </p>
+
+---
+
+## SAY HELLO
+
+If you're hiring, collaborating, or just curious how something here works, I'm happy to talk. The quickest route is [LinkedIn](https://www.linkedin.com/in/marcelo-ellwanger-10657a435/); my [résumé](https://marcelosofficial-ctrl.github.io/portfolio/resume/software/) and [case studies](https://marcelosofficial-ctrl.github.io/portfolio/) are on the portfolio.
